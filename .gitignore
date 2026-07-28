@@ -1,0 +1,25 @@
+# Excel vaqtinchalik lock fayllari
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Har ehtimolga qarshi: sirlar hech qachon kirmasin
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
